@@ -28,7 +28,7 @@ while cap.isOpened():
 
     if success:
         # Run YOLO26 inference on the frame
-        results = model(frame, classes=[41])
+        results = model(frame, classes=[67])
 
         for result in results:
             widest = 0
